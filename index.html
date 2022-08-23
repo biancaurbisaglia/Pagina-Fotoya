@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="fotos,kodak,portarretratos,quiniela,revelados">
+    <meta name="description"
+        content="Un negocio ubicado en Avenida Colon 1249,Cordoba capital, dedicado a ofrecer productos de fotografia digital,foto carnet,revelados y escaneado y ademas servicio de Quiniela">
+    <title>Foto ya!</title>
+    <link rel="shortcut icon" href="./img/camera.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/ff5ada0653.js" crossorigin="anonymous"></script>
+    <!-- CSS Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!------------------- Encabezado----------------------------- -->
+    <header class="container-fluid"> </header>
+    <nav class="navbar navbar-expand-lg p-3" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/logo.png" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="nosotros.html">Nosotros</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="email" placeholder="correo electronico" aria-label="email">
+                    <button class="btn btn-danger btn-danger-outline-success" type="button">Ingresa</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!------------------- Video----------------------------- -->
+    <section class="video">
+        <div class="absolute">
+            <h1 class="foto">Tus momentos mas felices en una foto</h1>
+        </div>
+        <video class="vid" onloadedmetadata="this.muted=true" autoplay loop>
+            <source src="./video/video.mp4">
+        </video>
+    </section>
+    <!------------------- INTRO----------------------------- -->
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">Un local unico para que disfrutes de tus <span
+                class="text-danger">Fotografias digitales</span></h1>
+        <p class="p-3 fs-4 "><span class="text-danger">Foto ya!</span> es el local donde te brindamos servicios de
+            fotografias digitales, foto carnet en el acto,productos tales como portarretratos,albumes y mucho mas.Ademas
+            cuenta con un servicio de Quiniela en el mismo espacio fisico.</p>
+    </section>
+    <!------------------- Servicios----------------------------- -->
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto servicio-fila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="./img/kodak.png" alt="Kodak" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Productos Kodak</h3>
+                    <p class="px-4">Ofrecemos foto carnet,impresiones digitales y escaneados de papel fotografico 100%
+                        Kodak. </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="./img/quiniela.png" alt="Quiniela" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Servicios de Quiniela</h3>
+                    <p class="px-4">Ofrecemos Quiniela,Poceados,raspaditas y los billetes del gordo de navidad e
+                        invierno. </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="./img/vgo.png" alt="Kodak" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Productos VGO</h3>
+                    <p class="px-4">Tenemos portarretratos VGO y albumes de foto. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------- Ubicacion----------------------------- -->
+    <div id="local" class="border-top border-2">
+        <div class="mapa"></div>
+        <div>
+            <div class="wrapper">
+                <h2>Ubicado en Cordoba capital</h2>
+                <h2 class="text-danger mb-4" id="typewriter"></h2>
+                <p class="fs-5 text-body">Nos encontramos al frente de la jefatura de policia con
+                    el objetivo de estar mas al alcance de la gente y que asi ustedes puedan disfrutar de nuestros
+                    productos y servicios.</p>
+                <section id="numeros-local">
+                    <div>
+                        <p class="text-danger fs-5">LUN A VIER</p>
+                        <p>9 a 14hs</p>
+                        <p>16 a 20hs</p>
+                    </div>
+                    <div>
+                        <p class="text-danger fs-5">SAB</p>
+                        <p>10 a 13hs</p>
+                        <p>17 a 20hs</p>
+                    </div>
+                    <div>
+                        <p class="text-danger fs-5">DOM</p>
+                        <p>Cerrado</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!------------------- Formulario contacto----------------------------- -->
+    <section>
+        <div class="container">
+            <div class="form-image">
+                <img src="./img/undraw_contact_us_re_4qqt.svg" alt="">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Contacto</h1>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="#">Entrar</a></button>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firstname">Nombre</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Bianca" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="lastname">Apellido</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Urbisaglia" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" name="email" placeholder="email@ejemplo.com" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="number">Celular</label>
+                            <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                        </div>
+
+                        <div class="continue-button">
+                            <button><a href="#">Continuar</a> </button>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!------------------- Pie de pagina----------------------------- -->
+
+    <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+        <p class="fs-5 px-3 pt-3">Foto ya! &copy; Todos los derechos reservados 2022</p>
+        <div id="iconos">
+            <a href="#"><i class="bi bi-envelope"></i></a>
+            <a href="#"><i class="bi bi-whatsapp"></i></a>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
