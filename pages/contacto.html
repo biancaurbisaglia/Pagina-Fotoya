@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,19 +16,23 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- CSS propio -->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
+
     <!------------------- Encabezado----------------------------- -->
     <header>
         <nav class="navbar navbar-expand-lg" id="menu">
             <div class="container-fluid">
                 <div>
-                    <img class="logo" src="./img/logo.png" alt="">
+                    <img class="logo" src="/img/logo.png" alt="logo">
                 </div>
                 <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -35,114 +40,102 @@
                             <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./productos.html">Productos</a>
+                            <a class="nav-link" href="/pages/productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            <a class="nav-link" href="/pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="email" placeholder="correo electronico" aria-label="email">
+                        <input class="form-control me-2" type="email" placeholder="correo electronico"
+                            aria-label="email">
                         <button class="btn btn-danger btn-danger-outline-success" type="button">Ingresa</button>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
-<main>   
-<!------------------- Ubicacion----------------------------- -->
-<div id="local" class="border-top border-2">
-    <div class="mapa"></div>
-    <div>
-        <div class="wrapper">
-            <h2>Ubicado en Cordoba capital</h2>
-            <h2 class="text-danger mb-4" id="typewriter"></h2>
-            <p class="fs-5 text-body">Nos encontramos al frente de la jefatura de policia con
-                el objetivo de estar mas al alcance de la gente y que asi ustedes puedan disfrutar de nuestros
-                productos y servicios.</p>
-            <section id="numeros-local">
-                <div>
-                    <p class="text-danger fs-5">LUN A VIER</p>
-                    <p>9 a 14hs</p>
-                    <p>16 a 20hs</p>
+
+
+    <!------------------- Formulario contacto----------------------------- -->
+    <main class="contacto_bg">
+        <section>
+            <div class="container">
+                <div class="form-image">
+                    <img src="/img/soporte.gif" alt="">
                 </div>
-                <div>
-                    <p class="text-danger fs-5">SAB</p>
-                    <p>10 a 13hs</p>
-                    <p>17 a 20hs</p>
+                <div class="form">
+                    <form action="#">
+                        <div class="form-header">
+                            <div class="title">
+                                <h1>Contacto</h1>
+                            </div>
+                            <div class="login-button">
+                                <button><a href="#">Entrar</a></button>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <div class="input-box">
+                                <label for="firstname">Nombre</label>
+                                <input id="firstname" type="text" name="firstname" placeholder="Bianca" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="lastname">Apellido</label>
+                                <input id="lastname" type="text" name="lastname" placeholder="Urbisaglia" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="email">E-mail</label>
+                                <input id="email" type="email" name="email" placeholder="email@ejemplo.com" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="number">Celular</label>
+                                <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                            </div>
+
+                            <div class="continue-button">
+                                <button><a href="#">Continuar</a> </button>
+                            </div>
+                    </form>
                 </div>
-                <div>
-                    <p class="text-danger fs-5">DOM</p>
-                    <p>Cerrado</p>
-                </div>
-            </section>
+            </div>
+        </section>
+
+
+        <!------------------- Ubicacion----------------------------- -->
+        <section class="ubicacion">
+            <div class=" aca text-center">
+                <h1>Encontranos aca</h1><img src="/img/mapa.png" alt="logomapa">
+                <h5>Avenida Colon 1249</h5>
+            </div>
+            <div class="map text-center">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.192227681527!2d-64.20214038503606!3d-31.40882948140661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329886913f2cb9%3A0xe5dc89dae31a78e5!2sAv.%20Col%C3%B3n%201249%2C%20X5000EPM%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1661349314239!5m2!1ses-419!2sar" width="900" height="600" style="border: 1px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </section>
+    </main>
+    <!------------------- Pie de pagina----------------------------- -->
+
+    <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+        <p class="fs-5 px-3 pt-3">Foto ya! &copy; Todos los derechos reservados 2022</p>
+        <div id="iconos">
+            <a href="#"><i class="bi bi-envelope"></i></a>
+            <a href="#"><i class="bi bi-whatsapp"></i></a>
         </div>
-    </div>
-</div>
-<!------------------- Formulario contacto----------------------------- -->
-<section>
-    <div class="container">
-        <div class="form-image">
-            <img src="./img/undraw_contact_us_re_4qqt.svg" alt="">
-        </div>
-        <div class="form">
-            <form action="#">
-                <div class="form-header">
-                    <div class="title">
-                        <h1>Contacto</h1>
-                    </div>
-                    <div class="login-button">
-                        <button><a href="#">Entrar</a></button>
-                    </div>
-                </div>
-
-                <div class="input-group">
-                    <div class="input-box">
-                        <label for="firstname">Nombre</label>
-                        <input id="firstname" type="text" name="firstname" placeholder="Bianca" required>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="lastname">Apellido</label>
-                        <input id="lastname" type="text" name="lastname" placeholder="Urbisaglia" required>
-                    </div>
-                    <div class="input-box">
-                        <label for="email">E-mail</label>
-                        <input id="email" type="email" name="email" placeholder="email@ejemplo.com" required>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="number">Celular</label>
-                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
-                    </div>
-
-                    <div class="continue-button">
-                        <button><a href="#">Continuar</a> </button>
-                    </div>
-            </form>
-        </div>
-    </div>
-</section>
-</main>
-<!------------------- Pie de pagina----------------------------- -->
-
-<footer class="w-100 d-flex align-items justify-content-center flex-wrap">
-    <p class="fs-5 px-3 pt-3">Foto ya! &copy; Todos los derechos reservados 2022</p>
-    <div id="iconos">
-        <a href="#"><i class="bi bi-envelope"></i></a>
-        <a href="#"><i class="bi bi-whatsapp"></i></a>
-    </div>
-</footer>
+    </footer>
 
 
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-</script>
-<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-<script src="index.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>

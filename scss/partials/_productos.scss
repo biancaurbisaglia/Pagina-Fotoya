@@ -1,6 +1,12 @@
 /* -------------------------------Carrusel de imagenes--------------------------- */
 .carousel-inner {
     max-height: 39rem;
+    .imagenes{
+        .foto{
+            width: 100%;
+            background-size: cover;
+        }
+    }
 
     .carousel-item {
         img {
@@ -10,12 +16,6 @@
     }
 }
 
-/*EXTEND CARRUSEL*/
-
-.foto3 {
-    @extend .carousel-item;
-    background-size: cover;
-}
 .boton1 {
     height: 45px;
     width: 35%;

@@ -25,11 +25,13 @@
         <nav class="navbar navbar-expand-lg" id="menu">
             <div class="container-fluid">
                 <div>
-                    <img class="logo" src="./img/logo.png" alt="">
+                    <img class="logo" src="./img/logo.png" alt="logo">
                 </div>
                 <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -47,7 +49,8 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="email" placeholder="correo electronico" aria-label="email">
+                        <input class="form-control me-2" type="email" placeholder="correo electronico"
+                            aria-label="email">
                         <button class="btn btn-danger btn-danger-outline-success" type="button">Ingresa</button>
                     </form>
                 </div>
@@ -56,10 +59,10 @@
     </header>
     <main>
         <!------------------- Video----------------------------- -->
-<video class="video" autoplay muted loop>
-    <source src="./video/video.mp4" type="video/mp4">
-    <source src="./video/video.ogv" type="video/ogg">
-</video>
+        <video class="video" autoplay muted loop>
+            <source src="./video/video.mp4" type="video/mp4">
+            <source src="./video/video.ogv" type="video/ogg">
+        </video>
         <!------------------- INTRO----------------------------- -->
         <section class="w-50 mx-auto text-center pt-5" id="intro">
             <h1 class="p-3 fs-2 border-top border-3">Un local unico para que disfrutes de tus <span
@@ -100,9 +103,12 @@
         </section>
         <!------------------- Ubicacion----------------------------- -->
         <div id="local" class="border-top border-2">
-            
-                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.192227681527!2d-64.20214038503606!3d-31.40882948140661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329886913f2cb9%3A0xe5dc89dae31a78e5!2sAv.%20Col%C3%B3n%201249%2C%20X5000EPM%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1661349314239!5m2!1ses-419!2sar" style="border: 1px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
+
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.192227681527!2d-64.20214038503606!3d-31.40882948140661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329886913f2cb9%3A0xe5dc89dae31a78e5!2sAv.%20Col%C3%B3n%201249%2C%20X5000EPM%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1661349314239!5m2!1ses-419!2sar"
+                width="1500" height="600" style="border: 1px;;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
             <div>
                 <div class="wrapper">
                     <h2>Ubicado en Cordoba capital</h2>
@@ -131,11 +137,25 @@
         </div>
         <!------------------- Pie de pagina----------------------------- -->
 
-        <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
-            <p class="fs-5 px-3 pt-3">Foto ya! &copy; Todos los derechos reservados 2022</p>
-            <div id="iconos">
-                <a href="#"><i class="bi bi-envelope"></i></a>
-                <a href="#"><i class="bi bi-whatsapp"></i></a>
+        <footer class="page-footer bg-light">
+            <div class="container1 text-center text-md-left mt-5 ">
+                <div class="row ">
+                    <div class="col-md-3 mx-auto mb-4">
+                        <h6 class="text-uppercase font-weight-bold ">Fotoya!</h6>
+                        <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width:125px;height:2px">
+                        <p class="mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor labore commodi laboriosam, suscipit tempore possimus ipsam corrupti voluptate provident facilis doloremque earum similique illo quaerat porro fuga aut animi iste!</p>
+                    </div>
+                    <div>
+                        <h6 class="text-uppercase font-weight-bold ">Nuestra pagina</h6>
+                        <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width:85px;height:2px">
+                        <ul class="list-unstyled">
+                            <li class="my-2"><a href="index.html">Inicio</a></li>
+                            <li class="my-2"><a href="/pages/productos.html">Productos</a></li>
+                            <li class="my-2"><a href="/pages/nosotros.html">Nosotros</a></li>
+                            <li class="my-2"><a href="/pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </footer>
 

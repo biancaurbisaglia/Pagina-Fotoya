@@ -12,7 +12,7 @@
 /*  Header */
 /* Menu igual en todas las paginas */
 #menu {
-  background-color: #f3f3f398; }
+  background-color: #fab617; }
   #menu .logo {
     margin-left: 10px;
     margin-right: 10px; }
@@ -40,8 +40,7 @@
   display: flex;
   justify-content: center; }
   #local .mapa {
-    width: 100%;
-    height: 100%; }
+    margin-left: 10px; }
   #local .wrapper {
     width: 50%;
     margin-left: 100px;
@@ -75,13 +74,12 @@
 /* -------------------------------Carrusel de imagenes--------------------------- */
 .carousel-inner {
   max-height: 39rem; }
-  .carousel-inner .carousel-item img, .carousel-inner .foto3 img {
+  .carousel-inner .imagenes .foto {
+    width: 100%;
+    background-size: cover; }
+  .carousel-inner .carousel-item img {
     display: block;
     width: 100; }
-
-/*EXTEND CARRUSEL*/
-.foto3 {
-  background-size: cover; }
 
 .boton1 {
   height: 45px;
@@ -98,35 +96,15 @@
 
 /* Contacto */
 /* -----------------------------------Mapa------------------------------------ */
-#local {
-  margin-top: 50px;
-  background-color: #f3f3f3;
-  padding-bottom: 100px;
-  display: flex;
-  justify-content: center; }
-  #local .mapa {
-    background: url(/img/mapa.png);
-    width: 100%;
-    height: 500px;
-    background-size: cover; }
-  #local .wrapper {
-    width: 50%;
-    margin-left: 100px;
-    padding-top: 150px; }
-    #local .wrapper #numeros-local {
-      padding: 0 20px 0 0;
-      display: flex;
-      margin: 0 !important;
-      padding: 0 !important; }
-      #local .wrapper #numeros-local div {
-        padding: 0 20px 0 0;
-        text-align: center; }
-        #local .wrapper #numeros-local div:not(:last-child) {
-          border-right: 2px solid #E30613; }
-        #local .wrapper #numeros-local div:not(:first-child) {
-          padding-left: 20px; }
-        #local .wrapper #numeros-local div p {
-          margin: 0; }
+.ubicacion {
+  width: 100%;
+  height: 100%;
+  background: #f3f3f398;
+  margin: 20px 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212); }
+  .ubicacion .map {
+    margin-left: 30px;
+    margin-right: 30px; }
 
 /* ----------------------------------------------Formulario----------------------------- */
 section .container {
@@ -225,18 +203,23 @@ section .container {
 
 /* Footer */
 /* Footer en todas las paginas */
-footer {
-  background-color: #fab617;
-  min-height: 100px; }
-  footer p {
-    color: #E30613;
-    text-align: center; }
+/* footer {
+    background-color: $color-three;
+    min-height: 100px;
 
-#iconos i {
-  font-size: 26px;
-  padding: 0 8px;
-  color: #E30613; }
+    p {
+        color: $color-secondary;
+        text-align: center;
+    }
+}
 
+#iconos {
+    i {
+        font-size: 26px;
+        padding: 0 8px;
+        color: $color-secondary;
+    }
+} */
 /* Mediaqueries */
 /*MEDIA QUERIES*/
 /*------------------------------------------ CONTACTO--------------------------------------- */
