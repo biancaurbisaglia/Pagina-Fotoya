@@ -20,34 +20,39 @@
 <!----------------------------- Navegacion--------------------------- -->
 
 <body>
-<header class="container-fluid">
-    <nav class="navbar navbar-expand-lg p-3" id="menu">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
-                <img src="./img/logo.png" alt="">
-            </a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./../index.html">Inicio</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="./productos.html">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="email" placeholder="correo electronico" aria-label="email">
-                    <button class="btn btn-danger btn-danger-outline-success" type="button">Ingresa</button>
-                </form>
+    <header>
+        <nav class="navbar navbar-expand-lg" id="menu">
+            <div class="container-fluid">
+                <div>
+                    <img class="logo" src="./img/logo.png" alt="">
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="email" placeholder="correo electronico" aria-label="email">
+                        <button class="btn btn-danger btn-danger-outline-success" type="button">Ingresa</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
 <!-------------------------- Carrusel de imagenes ---------------------->
 <main> <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner ">

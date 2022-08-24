@@ -1,38 +1,65 @@
 /*MEDIA QUERIES*/
-@media(max-width:768px) {
-    #intro {
-        width: 90% !important;
+
+/*------------------------------------------ CONTACTO--------------------------------------- */
+
+/* Mapa */
+
+/* Pantalla ancha */
+@media (max-width:1200px){
+    #intro{
+        width:90% !important;
+        margin:auto;
     }
-    .servicio-fila{
-        width: 100% !important;
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+}
+.wrapper-local {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+}
+}
+/* Pantalla sm */
+@media (max-width:768px) {
+
+    #intro{
+        width:90% !important;
+        margin:auto;
+    }
+    .wrapper {
+        width:50%;
+        margin:auto;
+        padding-top:50px;
+        text-align: center;    
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+    .mapa img {
+        width:100%;
+        height:auto;
+    }
+}
+
+/* Pantalla extra sm */
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width:100% !important;
+    }
+    #servicios-fila-1 {
+        width:100% !important;
+    }
+
+    .icono-wrap{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
         text-align: center;
     }
-
-    #bg-contacto{
-        top: -110px;
-    }
 }
 
-@media (max-width:576px) {
-    .icono-wrap{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
 
-@media (max-width:1200px) {
-    #local{
-        flex-wrap: wrap;
-        padding-top: 30px;
-
-    }
-    .wrapper{
-        width: 90%;
-        margin: auto;
-        padding-top: 50px;
-
-    }
-}
+/* Formulario */
 @media screen and (max-width: 1330px) {
     .form-image {
         display: none;
@@ -60,3 +87,5 @@
     }
     
 }
+
+/*  */

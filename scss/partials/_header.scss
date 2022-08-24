@@ -1,6 +1,10 @@
 /* Menu igual en todas las paginas */
 #menu {
-    background-color: $color-three;
+    background-color:$color-three;
+    .logo{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
     a {
         font-size: $font-nav;
