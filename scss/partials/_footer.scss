@@ -1,0 +1,19 @@
+/* Footer en todas las paginas */
+
+footer {
+    background-color: $color-primary;
+    min-height: 100px;
+
+    p {
+        color: $color-secondary;
+        text-align: center;
+    }
+}
+
+#iconos {
+    i {
+        font-size: 26px;
+        padding: 0 8px;
+        color: $color-secondary;
+    }
+}

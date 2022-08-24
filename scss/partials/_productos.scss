@@ -1,0 +1,33 @@
+/* -------------------------------Carrusel de imagenes--------------------------- */
+.carousel-inner {
+    max-height: 39rem;
+
+    .carousel-item {
+        img {
+            display: block;
+            width: 100;
+        }
+    }
+}
+
+/*EXTEND CARRUSEL*/
+
+.foto3 {
+    @extend .carousel-item;
+    background-size: cover;
+}
+.boton1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: $color-secondary;
+    color: $color-three;
+    font-weight: 700;
+    border-radius: 60px;
+
+    &:hover {
+        background-color: #ed1d2b;
+        transition: 0.5s;
+    }
+}

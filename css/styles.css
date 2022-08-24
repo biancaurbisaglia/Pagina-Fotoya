@@ -1,0 +1,303 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,100;1,200;1,300&display=swap");
+/* Variables */
+/*Colores y tamaño de fuente*/
+/* Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; }
+
+/*  Header */
+/* Menu igual en todas las paginas */
+#menu {
+  background-color: #f3f3f3; }
+  #menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E30613; }
+  #menu button {
+    font-size: 18px;
+    width: 120px;
+    font-weight: bold; }
+
+/* Inicio */
+/*-----------------------------------------Video----------------------------------*/
+/* .video {
+    .absolute {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        position: absolute;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .foto {
+            font-size: 80px;
+            font-weight: 900;
+            z-index: 100;
+            color: #f3f3f3;
+            margin-bottom: 10px;
+            margin-top: 40px;
+        }
+    }
+    .vid {
+        width: 100%;
+        height: 50%;
+    }
+} */
+/* -----------------------------------Mapa------------------------------------ */
+#local {
+  margin-top: 50px;
+  background-color: #f3f3f3;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center; }
+  #local .mapa {
+    background: url(/img/mapa.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover; }
+  #local .wrapper {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px; }
+    #local .wrapper #numeros-local {
+      padding: 0 20px 0 0;
+      display: flex;
+      margin: 0 !important;
+      padding: 0 !important; }
+      #local .wrapper #numeros-local div {
+        padding: 0 20px 0 0;
+        text-align: center; }
+        #local .wrapper #numeros-local div:not(:last-child) {
+          border-right: 2px solid #E30613; }
+        #local .wrapper #numeros-local div:not(:first-child) {
+          padding-left: 20px; }
+        #local .wrapper #numeros-local div p {
+          margin: 0; }
+
+/* Nosotros */
+#nosotros {
+  background-color: #f2eded9b; }
+
+.nos {
+  margin: 0;
+  color: #000000; }
+  .nos .container1 .iconos_nosotros {
+    background-color: #f9c651; }
+
+/* Productos */
+/* -------------------------------Carrusel de imagenes--------------------------- */
+.carousel-inner {
+  max-height: 39rem; }
+  .carousel-inner .carousel-item img, .carousel-inner .foto3 img {
+    display: block;
+    width: 100; }
+
+/*EXTEND CARRUSEL*/
+.foto3 {
+  background-size: cover; }
+
+.boton1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: #E30613;
+  color: #f3f3f3;
+  font-weight: 700;
+  border-radius: 60px; }
+  .boton1:hover {
+    background-color: #ed1d2b;
+    transition: 0.5s; }
+
+/* Contacto */
+/* -----------------------------------Mapa------------------------------------ */
+#local {
+  margin-top: 50px;
+  background-color: #f3f3f3;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center; }
+  #local .mapa {
+    background: url(/img/mapa.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover; }
+  #local .wrapper {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px; }
+    #local .wrapper #numeros-local {
+      padding: 0 20px 0 0;
+      display: flex;
+      margin: 0 !important;
+      padding: 0 !important; }
+      #local .wrapper #numeros-local div {
+        padding: 0 20px 0 0;
+        text-align: center; }
+        #local .wrapper #numeros-local div:not(:last-child) {
+          border-right: 2px solid #E30613; }
+        #local .wrapper #numeros-local div:not(:first-child) {
+          padding-left: 20px; }
+        #local .wrapper #numeros-local div p {
+          margin: 0; }
+
+/* ----------------------------------------------Formulario----------------------------- */
+section .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 0px 40px 100px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212); }
+  section .container .form-image {
+    width: 50%;
+    padding: 4rem;
+    background-color: #fab617; }
+    section .container .form-image .img {
+      width: 50%; }
+  section .container .form {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: #f3f3f3;
+    padding: 5rem; }
+    section .container .form .form-header {
+      margin-bottom: 3rem;
+      display: flex;
+      justify-content: space-between; }
+      section .container .form .form-header h1:after {
+        content: '';
+        display: block;
+        width: 5rem;
+        height: 0.3rem;
+        background-color: #E30613;
+        margin: 0 auto;
+        position: absolute;
+        border-radius: 10px; }
+      section .container .form .form-header .login-button {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: stretch; }
+        section .container .form .form-header .login-button button {
+          border: none;
+          background-color: #E30613;
+          padding: 0.4rem 1rem;
+          border-radius: 5px;
+          cursor: pointer; }
+          section .container .form .form-header .login-button button:hover {
+            background-color: #FAB617; }
+          section .container .form .form-header .login-button button a {
+            text-decoration: none;
+            font-weight: 500;
+            color: #fff; }
+    section .container .form .input-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 1rem 0; }
+      section .container .form .input-group .input-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 5px 5px 5px 5px; }
+        section .container .form .input-group .input-box input {
+          margin: 0.6rem 0;
+          padding: 0.8rem 1.2rem;
+          border: none;
+          border-radius: 10px;
+          box-shadow: 1px 1px 6px #0000001c;
+          font-size: 0.8rem; }
+          section .container .form .input-group .input-box input:hover {
+            background-color: #eeeeee75; }
+          section .container .form .input-group .input-box input:focus-visible {
+            outline: 1px solid #E30613; }
+          section .container .form .input-group .input-box input:placeholder {
+            color: #000000be; }
+        section .container .form .input-group .input-box label {
+          font-size: 0.75rem;
+          font-weight: 600;
+          color: #000000c0; }
+    section .container .form .continue-button button {
+      width: 100%;
+      margin-top: 2.5rem;
+      border: none;
+      background-color: #E30613;
+      padding: 0.62rem;
+      border-radius: 5px;
+      cursor: pointer; }
+      section .container .form .continue-button button:hover {
+        background-color: #fab617; }
+      section .container .form .continue-button button a {
+        text-decoration: none;
+        font-size: 0.93rem;
+        font-weight: 500;
+        color: #fff; }
+
+/* Footer */
+/* Footer en todas las paginas */
+footer {
+  background-color: #fab617;
+  min-height: 100px; }
+  footer p {
+    color: #E30613;
+    text-align: center; }
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #E30613; }
+
+/* Mediaqueries */
+/*MEDIA QUERIES*/
+@media (max-width: 768px) {
+  #intro {
+    width: 90% !important; }
+  .servicio-fila {
+    width: 100% !important;
+    text-align: center; }
+  #bg-contacto {
+    top: -110px; } }
+
+@media (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center; } }
+
+@media (max-width: 1200px) {
+  #local {
+    flex-wrap: wrap;
+    padding-top: 30px; }
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px; } }
+
+@media screen and (max-width: 1330px) {
+  .form-image {
+    display: none; }
+  .container {
+    width: 50%; }
+  .form {
+    width: 100%; } }
+
+@media screen and (max-width: 1064px) {
+  .container {
+    width: 90%;
+    height: auto; }
+  .input-group {
+    flex-direction: column;
+    z-index: 5;
+    padding-right: 5rem;
+    max-height: 10rem;
+    overflow-y: scroll;
+    flex-wrap: nowrap; } }

@@ -1,0 +1,16 @@
+/* Menu igual en todas las paginas */
+#menu {
+    background-color: $color-three;
+
+    a {
+        font-size: $font-nav;
+        font-weight: bold;
+        color: $color-secondary;
+    }
+
+    button {
+        font-size: $font-nav;
+        width: 120px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,188 @@
+/* -----------------------------------Mapa------------------------------------ */
+#local {
+    margin-top: 50px;
+    background-color: #f3f3f3;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+
+    .mapa {
+        background: url(/img/mapa.png);
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+    }
+
+    .wrapper {
+        width: 50%;
+        margin-left: 100px;
+        padding-top: 150px;
+
+        #numeros-local {
+            padding: 0 20px 0 0;
+            display: flex;
+            margin: 0 !important;
+            padding: 0 !important;
+
+            div {
+                padding: 0 20px 0 0;
+                text-align: center;
+
+                &:not(:last-child) {
+                    border-right: 2px solid $color-secondary;
+                }
+
+                &:not(:first-child) {
+                    padding-left: 20px;
+                }
+
+                p {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+}
+/* ----------------------------------------------Formulario----------------------------- */
+section {
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 40px 0px 40px 100px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+
+        .form-image {
+            width: 50%;
+            padding: 4rem;
+            background-color: $color-primary;
+
+            .img {
+                width: 50%;
+            }
+        }
+
+        .form {
+            width: 100%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: stretch;
+            background-color: $color-three;
+            padding: 5rem;
+
+            .form-header {
+                margin-bottom: 3rem;
+                display: flex;
+                justify-content: space-between;
+
+                h1 {
+                    &:after {
+                        content: '';
+                        display: block;
+                        width: 5rem;
+                        height: 0.3rem;
+                        background-color: $color-secondary;
+                        margin: 0 auto;
+                        position: absolute;
+                        border-radius: 10px;
+                    }
+                }
+
+                .login-button {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    align-items: stretch;
+
+                    button {
+                        border: none;
+                        background-color: $color-secondary;
+                        padding: 0.4rem 1rem;
+                        border-radius: 5px;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: #FAB617;
+                        }
+
+                        a {
+                            text-decoration: none;
+                            font-weight: 500;
+                            color: #fff;
+                        }
+                    }
+                }
+
+            }
+
+            .input-group {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                padding: 1rem 0;
+
+                .input-box {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    margin: 5px 5px 5px 5px;
+
+                    input {
+                        margin: 0.6rem 0;
+                        padding: 0.8rem 1.2rem;
+                        border: none;
+                        border-radius: 10px;
+                        box-shadow: 1px 1px 6px #0000001c;
+                        font-size: 0.8rem;
+
+                        &:hover {
+                            background-color: #eeeeee75;
+                        }
+
+                        &:focus-visible {
+                            outline: 1px solid $color-secondary;
+                        }
+
+                        &:placeholder {
+                            color: #000000be;
+                        }
+                    }
+
+                    label {
+                        font-size: 0.75rem;
+                        font-weight: 600;
+                        color: #000000c0;
+                    }
+                }
+
+            }
+
+            .continue-button {
+                button {
+                    width: 100%;
+                    margin-top: 2.5rem;
+                    border: none;
+                    background-color: $color-secondary;
+                    padding: 0.62rem;
+                    border-radius: 5px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: $color-primary;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        font-size: 0.93rem;
+                        font-weight: 500;
+                        color: #fff;
+                    }
+                }
+            }
+
+        }
+    }
+}
