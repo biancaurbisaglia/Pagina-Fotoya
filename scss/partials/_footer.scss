@@ -1,19 +1,62 @@
 /* Footer en todas las paginas */
 
-/* footer {
-    background-color: $color-three;
-    min-height: 100px;
+footer {
+    .footer-top {
+        background: $color-three;
+        padding: 80px 0;
 
-    p {
-        color: $color-secondary;
-        text-align: center;
+        .row {
+            .segment-one {
+                h3 {
+                    color: $color-secondary;
+                    font-weight: 800;
+                    margin: 10px 0;
+                }
+
+                p {
+                    color: $color-four;
+                    line-height: 25px;
+                }
+            }
+
+            .segment-two {
+                h3 {
+                    color: $color-secondary;
+                    font-size: 20px;
+
+                    &:before {
+                        content: "|";
+                        color: $color-primary;
+                        padding-right: 10px;
+                    }
+                }
+                ul{
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    li{
+                        border-bottom: 1px solid $color-primary;
+                        line-height: 40px;
+                        a{
+                            
+                        }
+                    }
+                }
+            }
+
+        }
     }
+
+
 }
 
-#iconos {
+
+
+
+/* #iconos {
     i {
         font-size: 26px;
         padding: 0 8px;
         color: $color-secondary;
     }
-} */
+}  */

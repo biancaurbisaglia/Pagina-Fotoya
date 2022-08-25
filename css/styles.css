@@ -203,23 +203,38 @@ section .container {
 
 /* Footer */
 /* Footer en todas las paginas */
-/* footer {
-    background-color: $color-three;
-    min-height: 100px;
+footer .footer-top {
+  background: #f3f3f398;
+  padding: 80px 0; }
+  footer .footer-top .row .segment-one h3 {
+    color: #E30613;
+    font-weight: 800;
+    margin: 10px 0; }
+  footer .footer-top .row .segment-one p {
+    color: #000;
+    line-height: 25px; }
+  footer .footer-top .row .segment-two h3 {
+    color: #E30613;
+    font-size: 20px; }
+    footer .footer-top .row .segment-two h3:before {
+      content: "|";
+      color: #fab617;
+      padding-right: 10px; }
+  footer .footer-top .row .segment-two ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    footer .footer-top .row .segment-two ul li {
+      border-bottom: 1px solid #fab617;
+      line-height: 40px; }
 
-    p {
-        color: $color-secondary;
-        text-align: center;
-    }
-}
-
-#iconos {
+/* #iconos {
     i {
         font-size: 26px;
         padding: 0 8px;
         color: $color-secondary;
     }
-} */
+}  */
 /* Mediaqueries */
 /*MEDIA QUERIES*/
 /*------------------------------------------ CONTACTO--------------------------------------- */
