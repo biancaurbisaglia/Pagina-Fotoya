@@ -1,3 +1,5 @@
+/* -------------------------------Beneficios-------------------------------------------- */
+
 #nosotros {
     background-color: #f2eded9b;
 }
@@ -6,28 +8,22 @@
     margin: 0;
     color: #000000;
 
-    .container1 {
+    .container {
         .iconos_nosotros {
             background-color: #f9c651;
+            h1{
+                @include rojo;
+            }
 
         }
     }
 
 }
-
-#familia {
+/* -----------------------------------Equipo------------------------------------ */
+#equipo {
     padding: 50px 50px;
     h2{
-        &:after {
-            content: '';
-            display: block;
-            width: 5rem;
-            height: 0.3rem;
-            background-color: $color-secondary;
-            margin: 5px auto;
-            border-radius: 10px;
-            text-align: center;
-        }
+        @include rojo;
     }
 
     .personas {
@@ -38,16 +34,34 @@
         align-items: center;
 
         div {
-          
-
             img {
                 width: 400px;
                 height: 400px;
                 background-size: cover;
-
             }
         }
     }
 
 
 }
+
+/* --------------------------------------------Info------------------------------ */
+.open{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.familia{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.argentina{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
