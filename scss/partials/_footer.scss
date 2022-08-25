@@ -1,16 +1,11 @@
 /* Footer en todas las paginas */
 
-footer {
-    .footer-top {
-        background: $color-three;
-        padding: 80px 0;
-
+.container-fluid {
         .row {
             .segment-one {
                 h3 {
                     color: $color-secondary;
                     font-weight: 800;
-                    margin: 10px 0;
                 }
 
                 p {
@@ -117,7 +112,7 @@ footer {
     }
 
 
-}
+
 
 
 
