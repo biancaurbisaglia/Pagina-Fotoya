@@ -10,8 +10,7 @@
   font-family: 'Montserrat', sans-serif; }
 
 /* Mixins */
-/*  Header */
-/* Menu igual en todas las paginas */
+/* HEADER*/
 #menu {
   background-color: #fab617; }
   #menu .logo {
@@ -26,7 +25,7 @@
     width: 120px;
     font-weight: bold; }
 
-/* Inicio */
+/* INICIO */
 /*-----------------------------------------Video----------------------------------*/
 .video {
   width: 100%;
@@ -61,7 +60,31 @@
         #local .wrapper #numeros-local div p {
           margin: 0; }
 
-/* Nosotros */
+/* PRODUCTOS */
+/* -------------------------------Carrusel de imagenes--------------------------- */
+.carousel-inner {
+  max-height: 39rem; }
+  .carousel-inner .imagenes .foto {
+    width: 100%;
+    background-size: cover; }
+  .carousel-inner .carousel-item img {
+    display: block;
+    width: 100; }
+
+.boton1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: #E30613;
+  color: #dad4d498;
+  font-weight: 700;
+  border-radius: 60px; }
+  .boton1:hover {
+    background-color: #ed1d2b;
+    transition: 0.5s; }
+
+/* NOSOTROS */
 /* -------------------------------Beneficios-------------------------------------------- */
 #nosotros {
   background-color: #f2eded9b; }
@@ -123,31 +146,7 @@
   justify-content: space-around;
   align-items: center; }
 
-/* Productos */
-/* -------------------------------Carrusel de imagenes--------------------------- */
-.carousel-inner {
-  max-height: 39rem; }
-  .carousel-inner .imagenes .foto {
-    width: 100%;
-    background-size: cover; }
-  .carousel-inner .carousel-item img {
-    display: block;
-    width: 100; }
-
-.boton1 {
-  height: 45px;
-  width: 35%;
-  border: none;
-  outline: none;
-  background-color: #E30613;
-  color: #dad4d498;
-  font-weight: 700;
-  border-radius: 60px; }
-  .boton1:hover {
-    background-color: #ed1d2b;
-    transition: 0.5s; }
-
-/* Contacto */
+/* CONTACTO */
 /* -----------------------------------Mapa------------------------------------ */
 .ubicacion {
   width: 100%;
@@ -194,8 +193,30 @@
       border-radius: 10px;
       text-align: center; }
 
-/* Footer */
-/* Footer en todas las paginas */
+/* INFO */
+/* ----------------------------Advertencia---------------------- */
+.atencion p {
+  font-size: 20px; }
+
+/* -------------------------- */
+#contenidos {
+  background: #dad4d498;
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+  #contenidos #centro {
+    width: 800px;
+    margin: auto;
+    border: 1px solid;
+    height: auto;
+    overflow: hidden; }
+    #contenidos #centro #izquierda {
+      width: 390px;
+      height: auto;
+      overflow: hidden;
+      border: 1px solid; }
+
+/* FOOTER */
 .container-fluid .row .segment-one h3 {
   color: #E30613;
   font-weight: 800; }
@@ -279,8 +300,7 @@
   width: 100%;
   height: 100%; }
 
-/* Mediaqueries */
-/*MEDIA QUERIES*/
+/* MEDIAQUERIES */
 /*------------------------------------------ CONTACTO--------------------------------------- */
 /* Mapa */
 /* Pantalla ancha */
@@ -337,5 +357,3 @@
     text-align: center; }
   #bg-contacto {
     top: -110px; } }
-
-/* --------------------------------------FOOTER----------------------------- */

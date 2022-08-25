@@ -7,23 +7,26 @@
 /* Mixins */
 @import "./misc/mixin";
 
-/*  Header */
+/* HEADER*/
 @import "./partials/header";
 
-/* Inicio */
+/* INICIO */
 @import "./partials/index";
 
-/* Nosotros */
-@import "./partials/nosotros";
-
-/* Productos */
+/* PRODUCTOS */
 @import "./partials/productos";
 
-/* Contacto */
+/* NOSOTROS */
+@import "./partials/nosotros";
+
+/* CONTACTO */
 @import "./partials/contacto";
 
-/* Footer */
+/* INFO */
+@import "./partials/info";
+
+/* FOOTER */
 @import "./partials/footer";
 
-/* Mediaqueries */
+/* MEDIAQUERIES */
 @import"./partials/mediaqueries";
