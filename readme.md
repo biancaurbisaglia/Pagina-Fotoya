@@ -9,6 +9,6 @@
 ![2022-08-25 (5)](https://user-images.githubusercontent.com/109326207/186806223-8e6f5c17-7854-4690-883f-aa1425ad3873.png)
 
 <h2> Sreenshots pantalla mobile<h2>
-![WhatsApp Image 2022-08-25 at 11 48 47 PM](https://user-images.githubusercontent.com/109326207/186806795-53d63cd5-7d01-401c-bd41-b572fe318666.jpeg)
+(https://user-images.githubusercontent.com/109326207/186806795-53d63cd5-7d01-401c-bd41-b572fe318666.jpeg)
 
 <h2> Herramientas utilizadas<h2>
