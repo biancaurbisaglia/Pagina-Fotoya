@@ -6,24 +6,16 @@
     }
 }
 
-/* -------------------------- */
+/* -------------------------- No permitido-------------------------*/
 
-#contenidos{
-    background: $color-three;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    #centro{
-        width: 800px;
-        margin: auto;
-        border: 1px solid;
-        height: auto;
-        overflow: hidden;
-        #izquierda{
-            width: 390px;
-            height: auto;
-            overflow: hidden;
-            border: 1px solid;
-        }
+.no{
+    p{
+        width: 100%;
+        text-align: center;
+        background-color: $color-three;
+        border-radius: 4px ;
+        padding: 20px 10px;
+        margin: 0 20px;
     }
+    
 }

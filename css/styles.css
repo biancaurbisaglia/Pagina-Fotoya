@@ -198,23 +198,14 @@
 .atencion p {
   font-size: 20px; }
 
-/* -------------------------- */
-#contenidos {
-  background: #dad4d498;
+/* -------------------------- No permitido-------------------------*/
+.no p {
   width: 100%;
-  height: auto;
-  overflow: hidden; }
-  #contenidos #centro {
-    width: 800px;
-    margin: auto;
-    border: 1px solid;
-    height: auto;
-    overflow: hidden; }
-    #contenidos #centro #izquierda {
-      width: 390px;
-      height: auto;
-      overflow: hidden;
-      border: 1px solid; }
+  text-align: center;
+  background-color: #dad4d498;
+  border-radius: 4px;
+  padding: 20px 10px;
+  margin: 0 20px; }
 
 /* FOOTER */
 .container-fluid .row .segment-one h3 {
