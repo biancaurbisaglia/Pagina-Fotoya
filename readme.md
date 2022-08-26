@@ -1,3 +1,4 @@
-<h1> Proyecto Pagina Kodak<h1>
+ Foto ya 
 
-<p>Este es un proyecto del curso de Desarrollo web de Coderhouse<p>
+Pagina informativa sobre nuestros productos,servicios y valores en nuestro local
+  
