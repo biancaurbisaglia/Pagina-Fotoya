@@ -12,3 +12,10 @@
 (https://user-images.githubusercontent.com/109326207/186806795-53d63cd5-7d01-401c-bd41-b572fe318666.jpeg)
 
 <h2> Herramientas utilizadas<h2>
+ 
+ -HTML
+ -CSS
+ -BOOTSTRAP
+ -SASS
+ -FLATICON
+ -CANVA
