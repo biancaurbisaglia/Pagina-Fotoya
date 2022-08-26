@@ -28,10 +28,10 @@
 
     .personas {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: nowrap;
-        justify-content: space-around;
         align-items: center;
+        justify-content: space-between;
 
         div {
             img {
